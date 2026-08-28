@@ -2,8 +2,14 @@ import { aliadosData } from "@/mocks/homeData";
 
 export default function AliadosVoluntarios() {
   return (
-    <section id="aliados" className="py-10 md:py-12 relative">
+    <section id="aliados" className="py-10 md:py-12 relative overflow-hidden">
+      <img
+        src={`${import.meta.env.BASE_URL}images/jeje.jpg`}
+        alt="Fondo Aliados"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
       <div className="absolute inset-0 bg-stone-900/70" />
+      <div className="absolute inset-0 bg-amber-500/15" />
       <div className="relative z-10">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="text-center mb-8">
