@@ -2,7 +2,7 @@ import { heroData } from "@/mocks/homeData";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[80vh] sm:min-h-[85vh] lg:min-h-screen flex items-end sm:items-center justify-center overflow-hidden py-16 lg:py-0">
+    <section className="relative min-h-[80vh] sm:min-h-[85vh] lg:min-h-screen flex items-end sm:items-center justify-center overflow-hidden pt-16 pb-6 lg:py-0">
       <div className="absolute inset-0">
         <img
           alt="Comunidades campesinas del Perú"
@@ -43,7 +43,7 @@ export default function HeroSection() {
             }}>ESPERANZA</span>
           </h1>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold leading-tight mb-6 mt-8 sm:mt-0 font-['Playfair_Display']">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold leading-tight mb-6 mt-24 sm:mt-0 font-['Playfair_Display']">
             {heroData.title} <span className="text-amber-400 italic">{heroData.highlight}</span>
             <br />
             {heroData.subtitle}
