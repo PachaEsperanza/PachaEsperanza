@@ -3,11 +3,15 @@ import { quienesSomosData } from "@/mocks/homeData";
 export default function QuienesSomos() {
   return (
     <section id="quienes-somos" className="relative py-12 md:py-16 overflow-hidden">
-      <img
-        src={`${import.meta.env.BASE_URL}images/fondo.jpg`}
-        alt="Fondo Nuestra Historia"
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
         className="absolute inset-0 w-full h-full object-cover"
-      />
+      >
+        <source src={`${import.meta.env.BASE_URL}videos/fondo1.mp4`} type="video/mp4" />
+      </video>
       <div className="absolute inset-0 bg-stone-900/45" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-6">
