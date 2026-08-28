@@ -108,18 +108,6 @@ export const areasTrabajo = {
         "https://readdy.ai/api/search-image?query=Peruvian%20indigenous%20cultural%20celebration%2C%20traditional%20dance%20and%20music%2C%20colorful%20costumes%2C%20community%20gathering%20in%20Andean%20village%2C%20joyful%20atmosphere&width=900&height=600&seq=area-cultura-01&orientation=landscape",
     },
     {
-      id: 3,
-      category: "Niños",
-      icon: "ri-book-open-line",
-      title: "Educación Infantil",
-      count: "1,800+",
-      countLabel: "Niños beneficiados",
-      description:
-        "Garantizamos que los niños de comunidades rurales accedan a educación de calidad, con materiales, tutores y espacios seguros para aprender.",
-      image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20children%20in%20a%20rural%20school%20classroom%2C%20smiling%20and%20learning%2C%20colorful%20notebooks%2C%20Andean%20village%20setting%2C%20warm%20natural%20light%2C%20hopeful%20atmosphere&width=900&height=600&seq=area-educacion-01&orientation=landscape",
-    },
-    {
       id: 4,
       category: "Madres",
       icon: "ri-heart-pulse-line",
