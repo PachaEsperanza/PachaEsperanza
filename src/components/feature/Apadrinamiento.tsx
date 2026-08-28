@@ -23,11 +23,11 @@ export default function Apadrinamiento() {
     <section id="apadrinamiento" className="relative py-16 md:py-20 overflow-hidden">
       {/* Fondo paisaje andino colorido */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[#f5ede4]" />
+        <div className="absolute inset-0 bg-[#f5ede4]/30" />
         <img
-          alt="Colorful Peruvian Andean landscape"
-          className="absolute inset-0 w-full h-full object-cover object-center opacity-60"
-          src="https://readdy.ai/api/search-image?query=Colorful%20Peruvian%20Andean%20landscape%20with%20green%20terraces%20mountains%20villages%20warm%20sunlight%20blue%20sky%20vivid%20colors%20wildflowers%20panoramic%20view&width=1600&height=900&seq=apadrina-bg-01&orientation=landscape"
+          alt="Fondo Apadrinamiento"
+          className="absolute inset-0 w-full h-full object-cover object-center opacity-90"
+          src={`${import.meta.env.BASE_URL}images/foto.jpg`}
         />
       </div>
 
@@ -157,7 +157,7 @@ export default function Apadrinamiento() {
                 key={nino.id}
                 className="bg-white/85 backdrop-blur-sm rounded-2xl overflow-hidden border border-white/40 hover:border-emerald-300/60 transition-all group cursor-pointer shadow-sm"
               >
-                <div className="relative h-56 md:h-64 overflow-hidden">
+                <div className="relative h-72 overflow-hidden">
                   <img
                     alt={nino.nombre}
                     className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
