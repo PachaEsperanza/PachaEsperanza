@@ -264,40 +264,6 @@ export const proyectosData = {
     "Estos son los proyectos que están transformando vidas ahora mismo. Cada sol cuenta.",
   proyectos: [
     {
-      id: 1,
-      title: "Aulas del Futuro — Catacaos",
-      description:
-        "Construcción de 3 aulas prefabricadas y dotación de materiales educativos para 180 niños en comunidades rurales del distrito de Catacaos sin acceso a escuelas.",
-      category: "Educación",
-      icon: "ri-book-open-line",
-      recaudado: 31200,
-      meta: 45000,
-      porcentaje: 69,
-      estado: "URGENTE",
-      estadoColor: "red",
-      beneficiarios: 180,
-      region: "Catacaos, Piura",
-      image:
-        "https://readdy.ai/api/search-image?query=Rural%20school%20construction%20in%20arid%20northern%20Peru%20Piura%20region%2C%20children%20waiting%20for%20new%20classroom%2C%20community%20volunteers%20building%20with%20local%20materials%2C%20dry%20landscape%20with%20algarrobo%20trees%2C%20hopeful%20atmosphere%2C%20warm%20dusty%20light&width=400&height=220&seq=proyecto-aulas-piura-01&orientation=landscape",
-    },
-    {
-      id: 2,
-      title: "Brigadas de Salud Materna — Llata",
-      description:
-        "Brigadas médicas mensuales para atención prenatal, parto seguro y control pediátrico en 12 comunidades altoandinas del distrito de Llata, Huánuco.",
-      category: "Salud",
-      icon: "ri-heart-pulse-line",
-      recaudado: 22400,
-      meta: 28000,
-      porcentaje: 80,
-      estado: "ACTIVO",
-      estadoColor: "emerald",
-      beneficiarios: 340,
-      region: "Llata, Huánuco",
-      image:
-        "https://readdy.ai/api/search-image?query=Medical%20brigade%20visiting%20rural%20community%20in%20arid%20northern%20Peru%20Piura%20region%2C%20doctor%20examining%20pregnant%20woman%20in%20outdoor%20clinic%2C%20dry%20vegetation%20background%2C%20warm%20caring%20atmosphere%2C%20dusty%20golden%20light&width=400&height=220&seq=proyecto-salud-piura-01&orientation=landscape",
-    },
-    {
       id: 3,
       title: "Mujeres que Lideran — Chulucanas",
       description:
@@ -347,23 +313,6 @@ export const proyectosData = {
       region: "Puno",
       image:
         "https://readdy.ai/api/search-image?query=Peruvian%20children%20learning%20traditional%20northern%20Peruvian%20dance%20and%20music%20in%20Piura%20region%2C%20cultural%20school%2C%20colorful%20regional%20costumes%2C%20dry%20landscape%20background%2C%20joyful%20community%20celebration%2C%20warm%20dusty%20light&width=400&height=220&seq=proyecto-cultura-piura-01&orientation=landscape",
-    },
-    {
-      id: 6,
-      title: "Techo Digno — Panao",
-      description:
-        "Mejoramiento de 60 viviendas en comunidades rurales del distrito de Panao, Huánuco: instalación de agua potable, letrinas y techos resistentes para familias vulnerables.",
-      category: "Vivienda",
-      icon: "ri-home-heart-line",
-      recaudado: 8400,
-      meta: 35000,
-      porcentaje: 24,
-      estado: "NUEVO",
-      estadoColor: "amber",
-      beneficiarios: 60,
-      region: "Panao, Huánuco",
-      image:
-        "https://readdy.ai/api/search-image?query=Improved%20rural%20home%20in%20arid%20northern%20Peru%20Sechura%20Piura%20region%2C%20family%20outside%20their%20new%20house%20with%20sturdy%20roof%2C%20dry%20landscape%20with%20sparse%20vegetation%2C%20community%20volunteers%20helping%2C%20warm%20dusty%20light%2C%20dignified%20living&width=400&height=220&seq=proyecto-vivienda-piura-01&orientation=landscape",
     },
   ],
 };
