@@ -15,14 +15,14 @@ export default function QuienesSomos() {
       <div className="absolute inset-0 bg-stone-900/45" />
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 md:px-6">
-        <div className="rounded-3xl overflow-hidden border border-white/20 backdrop-blur-md bg-white/10">
-          <div className="text-center pt-6 pb-4 px-6 md:px-8 border-b border-white/10">
-            <p className="text-amber-400 text-xs font-semibold uppercase tracking-widest mb-2">
-              {quienesSomosData.badge}
-            </p>
-            <h2 className="text-2xl md:text-3xl font-bold text-white leading-tight font-['Playfair_Display']">{quienesSomosData.title}</h2>
-          </div>
+        <div className="text-center pt-2 pb-6 px-6 md:px-8">
+          <p className="text-amber-400 text-xs font-semibold uppercase tracking-widest mb-2">
+            {quienesSomosData.badge}
+          </p>
+          <h2 className="text-2xl md:text-3xl font-bold text-white leading-tight font-['Playfair_Display']">{quienesSomosData.title}</h2>
+        </div>
 
+        <div className="rounded-3xl overflow-hidden border border-white/20 backdrop-blur-md bg-white/10">
           <div className="grid lg:grid-cols-2 gap-0">
             {/* Left column */}
             <div className="p-4 md:p-6 border-r-0 lg:border-r border-white/10 flex flex-col gap-4">
