@@ -23,10 +23,10 @@ export default function Apadrinamiento() {
     <section id="apadrinamiento" className="relative py-16 md:py-20 overflow-hidden">
       {/* Fondo paisaje andino colorido */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[#f5ede4]/30" />
+        <div className="absolute inset-0 bg-[#f5ede4]/50" />
         <img
           alt="Fondo Apadrinamiento"
-          className="absolute inset-0 w-full h-full object-cover object-center opacity-90"
+          className="absolute inset-0 w-full h-full object-cover object-center opacity-70"
           src={`${import.meta.env.BASE_URL}images/foto.jpg`}
         />
       </div>
