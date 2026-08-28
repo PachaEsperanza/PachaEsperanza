@@ -14,7 +14,7 @@ export default function Transparencia() {
           <p className="text-amber-600 text-xs font-semibold uppercase tracking-widest mb-2">
             {transparenciaData.badge}
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-stone-800 mb-3 whitespace-pre-line">
+          <h2 className="text-3xl md:text-4xl font-bold text-stone-800 mb-3 whitespace-pre-line font-['Times_New_Roman',_serif] italic">
             {transparenciaData.title}
           </h2>
           <p className="text-stone-500 max-w-xl mx-auto text-sm">{transparenciaData.subtitle}</p>
