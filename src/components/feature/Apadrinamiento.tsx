@@ -10,7 +10,7 @@ export default function Apadrinamiento() {
     if (isPaused) return;
     const interval = setInterval(() => {
       setSlideIndex((prev) => (prev + 1) % slides.length);
-    }, 4000);
+    }, 12000);
     return () => clearInterval(interval);
   }, [slides.length, isPaused]);
 
