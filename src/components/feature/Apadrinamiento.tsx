@@ -119,7 +119,7 @@ export default function Apadrinamiento() {
 
         {/* Title + description */}
         <div className="text-center mb-10 md:mb-14">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-stone-800 mb-4 leading-tight font-['Times_New_Roman',_serif] tracking-tight" style={{ textShadow: '1px 1px 0 #444, -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444' }}>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-stone-800 mb-4 leading-tight font-['Times_New_Roman',_serif] tracking-tight">
             {apadrinamientoData.title}
             <br />
             <span className="text-white">{apadrinamientoData.highlight}</span>
