@@ -108,18 +108,6 @@ export const areasTrabajo = {
         "https://readdy.ai/api/search-image?query=Peruvian%20indigenous%20cultural%20celebration%2C%20traditional%20dance%20and%20music%2C%20colorful%20costumes%2C%20community%20gathering%20in%20Andean%20village%2C%20joyful%20atmosphere&width=900&height=600&seq=area-cultura-01&orientation=landscape",
     },
     {
-      id: 4,
-      category: "Madres",
-      icon: "ri-heart-pulse-line",
-      title: "Salud Materna y Familiar",
-      count: "620+",
-      countLabel: "Madres atendidas",
-      description:
-        "Llevamos brigadas médicas a comunidades sin acceso a un centro de salud, para que ninguna madre tenga que caminar horas ni arriesgar su vida al dar a luz.",
-      image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20mother%20with%20baby%20in%20rural%20Andean%20community%2C%20healthcare%20worker%20visiting%2C%20warm%20and%20caring%20atmosphere%2C%20natural%20light%2C%20documentary%20photography&width=900&height=600&seq=area-salud-01&orientation=landscape",
-    },
-    {
       id: 5,
       category: "Mujeres",
       icon: "ri-women-line",
