@@ -48,7 +48,10 @@ export default function HeroSection() {
             <br />
             {heroData.subtitle}
           </h2>
-          <p className="text-lg text-white/80 max-w-xl mb-8 leading-relaxed">
+          <p
+            className="text-sm md:text-base text-white/80 max-w-xl mb-8 leading-relaxed"
+            style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400 }}
+          >
             {heroData.description}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
