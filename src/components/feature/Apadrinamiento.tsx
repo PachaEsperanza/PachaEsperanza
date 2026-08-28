@@ -20,7 +20,7 @@ export default function Apadrinamiento() {
   };
 
   return (
-    <section id="apadrinamiento" className="relative py-16 md:py-20 overflow-hidden">
+    <section id="apadrinamiento" className="relative py-10 md:py-14 overflow-hidden">
       {/* Fondo paisaje andino colorido */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-[#f5ede4]/50" />
@@ -44,7 +44,7 @@ export default function Apadrinamiento() {
         </div>
 
         {/* Carousel - imagen izquierda, historia derecha */}
-        <div className="relative rounded-3xl overflow-hidden mb-10 md:mb-14 shadow-xl h-[620px] md:h-[540px] lg:h-[500px]">
+        <div className="relative rounded-3xl overflow-hidden mb-10 md:mb-14 shadow-xl h-[680px] md:h-[540px] lg:h-[500px]">
           {slides.map((slide, idx) => (
             <div
               key={idx}
@@ -63,7 +63,7 @@ export default function Apadrinamiento() {
                 </div>
 
                 {/* Right - Story */}
-                <div className="flex flex-col justify-center p-6 md:p-10 lg:p-12 bg-emerald-900/60 backdrop-blur-lg relative border border-white/10 shadow-2xl">
+                <div className="flex flex-col justify-center p-6 md:p-10 lg:p-12 pb-14 md:pb-10 lg:pb-12 bg-emerald-900/60 backdrop-blur-lg relative border border-white/10 shadow-2xl">
                   <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-amber-500/20 rounded-full mb-4 md:mb-5">
                     <i className="ri-double-quotes-l text-amber-400 text-lg md:text-xl" />
                   </div>
@@ -100,7 +100,7 @@ export default function Apadrinamiento() {
           ))}
 
           {/* Slide dots - bottom center */}
-          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+          <div className="absolute bottom-3 left-1/2 -translate-x-1/2 z-20 flex gap-2">
             {slides.map((_, idx) => (
               <button
                 key={idx}
@@ -122,9 +122,9 @@ export default function Apadrinamiento() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-stone-800 mb-4 leading-tight font-['Times_New_Roman',_serif] tracking-tight" style={{ textShadow: '1px 1px 0 #444, -1px -1px 0 #444, 1px -1px 0 #444, -1px 1px 0 #444' }}>
             {apadrinamientoData.title}
             <br />
-            <span className="text-emerald-700">{apadrinamientoData.highlight}</span>
+            <span className="text-white">{apadrinamientoData.highlight}</span>
           </h2>
-          <p className="text-stone-500 text-base md:text-lg max-w-2xl mx-auto font-bold">
+          <p className="text-black text-sm md:text-base max-w-2xl mx-auto font-bold">
             {apadrinamientoData.description}
           </p>
         </div>
