@@ -17,7 +17,7 @@ export default function Navbar() {
     <nav
       className={`w-full z-40 transition-all duration-300 fixed left-0 ${scrolled ? "top-0 bg-white shadow-sm border-b border-stone-100" : "top-[42px] bg-white shadow-sm border-b border-stone-100"}`}
     >
-      <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 pt-6 pb-3 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3 cursor-pointer">
           <div className="w-9 h-9 flex items-center justify-center bg-emerald-700 rounded-full">
             <i className="ri-seedling-line text-white text-lg" />
