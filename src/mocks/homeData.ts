@@ -597,7 +597,7 @@ export const contactoData = {
     {
       icon: "ri-mail-line",
       label: "Correo electrónico",
-      value: "contacto@semillasdeesperanza.org.pe",
+      value: "contacto@pachaesperanza.org.pe",
     },
     {
       icon: "ri-phone-line",
@@ -651,7 +651,7 @@ export const footerData = {
     },
   ],
   contact: [
-    { icon: "ri-mail-line", text: "contacto@semillasdeesperanza.org.pe" },
+    { icon: "ri-mail-line", text: "contacto@pachaesperanza.org.pe" },
     { icon: "ri-phone-line", text: "+51 984 123 456" },
     { icon: "ri-map-pin-line", text: "Jr. Cusco 342, Miraflores, Lima" },
   ],
