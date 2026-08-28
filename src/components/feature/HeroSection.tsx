@@ -2,27 +2,27 @@ import { heroData } from "@/mocks/homeData";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[80vh] sm:min-h-[85vh] lg:min-h-screen flex items-center justify-center overflow-hidden py-16 lg:py-0">
       <div className="absolute inset-0">
         <img
           alt="Comunidades campesinas del Perú"
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-cover object-center"
           src={`${import.meta.env.BASE_URL}images/heros.png`}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/55 via-black/35 to-black/15" />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-6 py-32 flex flex-col lg:flex-row items-center gap-12">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-6 py-20 md:py-32 flex flex-col lg:flex-row items-center gap-12">
         <div className="flex-1 text-white">
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 mb-6">
             <div className="w-2 h-2 bg-amber-400 rounded-full animate-pulse" />
             <span className="text-sm font-medium text-white/90">{heroData.badge}</span>
           </div>
-          <h1 className="mb-4 leading-none text-left">
+          <h1 className="mb-3 leading-none text-left">
             <span style={{
               display: 'block',
               fontFamily: "'Josefin Sans', sans-serif",
-              fontSize: 'clamp(2.2rem,6vw,4.5rem)',
+              fontSize: 'clamp(2.6rem,10vw,4.5rem)',
               fontWeight: 400,
               letterSpacing: '0.3em',
               lineHeight: 1,
@@ -32,9 +32,9 @@ export default function HeroSection() {
             <span style={{
               display: 'block',
               fontFamily: "'Josefin Sans', sans-serif",
-              fontSize: 'clamp(0.7rem,1.6vw,1.3rem)',
+              fontSize: 'clamp(0.8rem,2.4vw,1.3rem)',
               fontWeight: 400,
-              letterSpacing: '0.5em',
+              letterSpacing: '0.4em',
               color: '#FFD700',
               textAlign: 'left',
               textTransform: 'uppercase',
@@ -43,14 +43,12 @@ export default function HeroSection() {
             }}>ESPERANZA</span>
           </h1>
 
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight mb-6 font-['Playfair_Display']">
-            {heroData.title}
-            <br />
-            <span className="text-amber-400 italic">{heroData.highlight}</span>
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold leading-tight mb-6 font-['Playfair_Display']">
+            {heroData.title} <span className="text-amber-400 italic">{heroData.highlight}</span>
             <br />
             {heroData.subtitle}
           </h2>
-          <p className="text-base md:text-lg text-white/80 max-w-xl mb-8 leading-relaxed">
+          <p className="text-lg text-white/80 max-w-xl mb-8 leading-relaxed">
             {heroData.description}
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
