@@ -130,20 +130,20 @@ export default function Apadrinamiento() {
         </div>
 
         {/* Steps */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 md:mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-10 md:mb-16">
           {apadrinamientoData.steps.map((step) => (
             <div
               key={step.number}
-              className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 md:p-5 text-center border border-white/40 shadow-sm hover:shadow-xl hover:shadow-emerald-500/15 hover:border-emerald-300/60 hover:-translate-y-1.5 transition-all duration-300 cursor-default group"
+              className="bg-white/80 backdrop-blur-sm rounded-xl p-3 text-center border border-white/40 shadow-sm hover:shadow-xl hover:shadow-emerald-500/15 hover:border-emerald-300/60 hover:-translate-y-1.5 transition-all duration-300 cursor-default group"
             >
-              <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-emerald-50 group-hover:bg-emerald-100 rounded-xl mx-auto mb-3 transition-colors duration-300 group-hover:scale-110">
-                <i className={`${step.icon} text-emerald-700 group-hover:text-emerald-800 text-lg md:text-xl transition-all duration-300 group-hover:scale-110`} />
+              <div className="w-8 h-8 flex items-center justify-center bg-emerald-50 group-hover:bg-emerald-100 rounded-lg mx-auto mb-2 transition-colors duration-300 group-hover:scale-110">
+                <i className={`${step.icon} text-emerald-700 group-hover:text-emerald-800 text-base transition-all duration-300 group-hover:scale-110`} />
               </div>
-              <div className="w-5 h-5 flex items-center justify-center bg-amber-500 text-white text-xs font-bold rounded-full mx-auto mb-2 group-hover:scale-125 group-hover:shadow-md group-hover:shadow-amber-500/30 transition-all duration-300">
+              <div className="w-4 h-4 flex items-center justify-center bg-amber-500 text-white text-[10px] font-bold rounded-full mx-auto mb-1.5 group-hover:scale-125 group-hover:shadow-md group-hover:shadow-amber-500/30 transition-all duration-300">
                 {step.number}
               </div>
-              <h4 className="font-bold text-stone-800 text-sm mb-1 group-hover:text-emerald-800 transition-colors duration-300">{step.title}</h4>
-              <p className="text-stone-400 text-xs leading-relaxed">{step.desc}</p>
+              <h4 className="font-bold text-stone-800 text-xs mb-1 group-hover:text-emerald-800 transition-colors duration-300">{step.title}</h4>
+              <p className="text-stone-400 text-[11px] leading-snug">{step.desc}</p>
             </div>
           ))}
         </div>
