@@ -43,7 +43,7 @@ export default function HeroSection() {
             }}>ESPERANZA</span>
           </h1>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold leading-tight mb-6 mt-24 sm:mt-0 font-['Playfair_Display']">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold leading-tight mb-6 mt-32 sm:mt-0 font-['Playfair_Display']">
             {heroData.title} <span className="text-amber-400 italic">{heroData.highlight}</span>
             <br />
             {heroData.subtitle}
