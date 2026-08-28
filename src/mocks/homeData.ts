@@ -89,6 +89,9 @@ export const areasTrabajo = {
       icon: "ri-seedling-line",
       title: "Seguridad Alimentaria",
       count: "1,100+",
+      countLabel: "Familias con nutrición segura",
+      description:
+        "Impulsamos huertos familiares y crianza de animales menores para que ninguna mesa campesina quede vacía, sembrando autosuficiencia donde antes había escasez.",
       image:
         "https://readdy.ai/api/search-image?query=Peruvian%20family%20tending%20their%20vegetable%20garden%20in%20the%20Andes%2C%20fresh%20produce%2C%20children%20helping%2C%20rural%20community%2C%20natural%20and%20vibrant%20colors&width=900&height=600&seq=area-alimento-01&orientation=landscape",
     },
@@ -98,6 +101,9 @@ export const areasTrabajo = {
       icon: "ri-palette-line",
       title: "Identidad Cultural",
       count: "60+",
+      countLabel: "Comunidades preservadas",
+      description:
+        "Rescatamos danzas, lenguas originarias y saberes ancestrales para que ningún niño olvide de dónde viene, porque la cultura es la raíz que sostiene toda transformación.",
       image:
         "https://readdy.ai/api/search-image?query=Peruvian%20indigenous%20cultural%20celebration%2C%20traditional%20dance%20and%20music%2C%20colorful%20costumes%2C%20community%20gathering%20in%20Andean%20village%2C%20joyful%20atmosphere&width=900&height=600&seq=area-cultura-01&orientation=landscape",
     },
@@ -119,6 +125,9 @@ export const areasTrabajo = {
       icon: "ri-heart-pulse-line",
       title: "Salud Materna y Familiar",
       count: "620+",
+      countLabel: "Madres atendidas",
+      description:
+        "Llevamos brigadas médicas a comunidades sin acceso a un centro de salud, para que ninguna madre tenga que caminar horas ni arriesgar su vida al dar a luz.",
       image:
         "https://readdy.ai/api/search-image?query=Peruvian%20mother%20with%20baby%20in%20rural%20Andean%20community%2C%20healthcare%20worker%20visiting%2C%20warm%20and%20caring%20atmosphere%2C%20natural%20light%2C%20documentary%20photography&width=900&height=600&seq=area-salud-01&orientation=landscape",
     },
@@ -128,6 +137,9 @@ export const areasTrabajo = {
       icon: "ri-women-line",
       title: "Empoderamiento Femenino",
       count: "940+",
+      countLabel: "Mujeres empoderadas",
+      description:
+        "Formamos a mujeres campesinas en liderazgo y emprendimiento para que dejen de depender y empiecen a decidir, construyendo su propio camino con dignidad y autonomía.",
       image:
         "https://readdy.ai/api/search-image?query=Group%20of%20Peruvian%20women%20in%20traditional%20clothing%20working%20together%20in%20a%20community%20workshop%2C%20empowered%20and%20smiling%2C%20Andean%20setting%2C%20warm%20light&width=900&height=600&seq=area-mujer-01&orientation=landscape",
     },
@@ -137,6 +149,9 @@ export const areasTrabajo = {
       icon: "ri-group-line",
       title: "Desarrollo Comunitario",
       count: "120+",
+      countLabel: "Familias acompañadas",
+      description:
+        "Acompañamos a las comunidades a organizarse y gestionar sus propios proyectos, porque el cambio verdadero se construye con las familias, no para ellas.",
       image:
         "https://readdy.ai/api/search-image?query=Peruvian%20rural%20community%20meeting%20in%20town%20square%2C%20adults%20and%20children%20together%2C%20Andean%20village%20setting%2C%20warm%20afternoon%20light%2C%20hopeful%20atmosphere&width=900&height=600&seq=area-comunidad-01&orientation=landscape",
     },
