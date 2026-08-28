@@ -45,7 +45,7 @@ export default function AreasTrabajo() {
           <p className="text-white/60 max-w-xl mx-auto text-sm md:text-base">{areasTrabajo.subtitle}</p>
         </div>
 
-        <div style={{ position: "relative", minHeight: screenWidth < 640 ? 510 : screenWidth < 1024 ? 480 : 420 }}>
+        <div style={{ position: "relative", minHeight: screenWidth < 640 ? 510 : screenWidth < 1024 ? 480 : 480 }}>
           {areasTrabajo.areas.map((area, idx) => {
             const diff = getDiff(idx);
             const absDiff = Math.abs(diff);
