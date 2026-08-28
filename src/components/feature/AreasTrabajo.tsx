@@ -26,7 +26,7 @@ export default function AreasTrabajo() {
   };
 
   return (
-    <section id="impacto" className="relative py-20 md:py-24 overflow-hidden bg-stone-900">
+    <section id="impacto" className="relative py-10 md:py-14 overflow-hidden bg-stone-900">
       <div className="absolute inset-0 transition-all duration-700">
         <img
           alt="Educación Infantil"
@@ -37,7 +37,7 @@ export default function AreasTrabajo() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6">
-        <div className="text-center mb-10 md:mb-14">
+        <div className="text-center mb-6 md:mb-8">
           <p className="text-amber-400 text-xs font-semibold uppercase tracking-widest mb-3">
             {areasTrabajo.badge}
           </p>
@@ -45,7 +45,7 @@ export default function AreasTrabajo() {
           <p className="text-white/60 max-w-xl mx-auto text-sm md:text-base">{areasTrabajo.subtitle}</p>
         </div>
 
-        <div style={{ position: "relative", minHeight: screenWidth < 640 ? 620 : screenWidth < 1024 ? 460 : 420 }}>
+        <div style={{ position: "relative", minHeight: screenWidth < 640 ? 510 : screenWidth < 1024 ? 480 : 420 }}>
           {areasTrabajo.areas.map((area, idx) => {
             const diff = getDiff(idx);
             const absDiff = Math.abs(diff);
@@ -133,7 +133,7 @@ export default function AreasTrabajo() {
           })}
         </div>
 
-        <div className="flex items-center justify-center gap-6 mt-10">
+        <div className="flex items-center justify-center gap-6 mt-4 md:mt-6">
           <button
             onClick={prev}
             className="w-10 h-10 flex items-center justify-center rounded-full border border-white/20 bg-white/10 text-white hover:bg-white/20 transition-all cursor-pointer"
