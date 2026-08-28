@@ -24,7 +24,7 @@ export default function HistoriasReales() {
           className="w-full h-full object-cover object-center"
           src="https://readdy.ai/api/search-image?query=Breathtaking%20Peruvian%20Andes%20mountain%20landscape%20at%20golden%20hour%2C%20terraced%20fields%20on%20steep%20green%20hillsides%2C%20dramatic%20snow-capped%20peaks%20in%20background%2C%20warm%20sunset%20light%20casting%20long%20shadows%20across%20valleys%2C%20scattered%20traditional%20villages%2C%20majestic%20and%20serene%20atmosphere%2C%20vivid%20natural%20colors%2C%20wide%20panoramic%20view&width=1440&height=800&seq=paisaje-andino-historias-01&orientation=landscape"
         />
-        <div className="absolute inset-0 bg-emerald-950/55" />
+        <div className="absolute inset-0 bg-emerald-950/30" />
       </div>
 
       <div className="relative z-10 text-center mb-8 px-4 md:px-6">
