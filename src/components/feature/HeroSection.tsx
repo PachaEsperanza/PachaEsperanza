@@ -49,7 +49,7 @@ export default function HeroSection() {
             {heroData.subtitle}
           </h2>
           <p
-            className="text-sm md:text-base text-white/80 max-w-xl mb-8 leading-relaxed"
+            className="text-xs md:text-[15px] text-white/80 max-w-xl mb-8 leading-relaxed"
             style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400 }}
           >
             {heroData.description}
