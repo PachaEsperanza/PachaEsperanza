@@ -32,7 +32,7 @@ export default function HistoriasReales() {
           {testimoniosData.badge}
         </p>
         <h2 className="text-2xl md:text-3xl font-black text-white mb-2 font-['Times_New_Roman',_serif] tracking-tight" style={{ textShadow: '2px 2px 0 #333, -2px -2px 0 #333, 2px -2px 0 #333, -2px 2px 0 #333, 0 0 12px rgba(0,0,0,0.6)' }}>{testimoniosData.title}</h2>
-        <p className="text-emerald-200/80 max-w-xl mx-auto text-sm">{testimoniosData.subtitle}</p>
+        <p className="text-black max-w-xl mx-auto text-sm">{testimoniosData.subtitle}</p>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-10">
