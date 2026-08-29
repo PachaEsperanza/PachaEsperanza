@@ -17,7 +17,7 @@ export default function Transparencia() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-3 whitespace-pre-line font-['Times_New_Roman',_serif] italic">
             {transparenciaData.title}
           </h2>
-          <p className="text-black max-w-xl mx-auto text-sm md:text-base font-bold">{transparenciaData.subtitle}</p>
+          <p className="text-black max-w-xl mx-auto text-sm md:text-base">{transparenciaData.subtitle}</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-6 md:gap-8">
