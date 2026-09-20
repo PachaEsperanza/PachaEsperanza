@@ -22,7 +22,7 @@ export default function Donaciones() {
         <img
           alt="Fondo donaciones"
           className="w-full h-full object-cover object-top"
-          src="https://readdy.ai/api/search-image?query=Peruvian%20Andes%20mountains%20landscape%2C%20aerial%20view%2C%20green%20valleys%2C%20misty%20morning%2C%20abstract%20texture&width=1440&height=600&seq=contacto-bg-01&orientation=landscape"
+          src="/PachaEsperanza/images/fondos.jpg"
         />
       </div>
       <div className="absolute inset-0 bg-amber-900/30 mix-blend-multiply" />
@@ -39,7 +39,7 @@ export default function Donaciones() {
                 muted
                 playsInline
                 className="w-full h-full object-cover object-top"
-                poster="https://readdy.ai/api/search-image?query=Hands%20planting%20a%20seedling%20in%20fertile%20dark%20soil%2C%20close%20up%2C%20warm%20golden%20sunlight%20rays%2C%20green%20sprout%20emerging%2C%20hope%20and%20growth%20concept%2C%20soft%20bokeh%20background%2C%20cinematic%20documentary%20style%2C%20warm%20earthy%20tones&width=700&height=500&seq=donaciones-video-poster&orientation=portrait"
+                poster="/PachaEsperanza/images/donacion.png"
               >
                 <source
                   src="https://videos.pexels.com/video-files/3209219/3209219-uhd_2560_1440_25fps.mp4"
@@ -83,7 +83,7 @@ export default function Donaciones() {
               <img
                 alt="Niños de comunidades rurales del Perú recibiendo apoyo"
                 className="w-full h-full object-cover object-top"
-                src="https://readdy.ai/api/search-image?query=Peruvian%20children%20in%20rural%20community%20receiving%20school%20supplies%20and%20food%20aid%2C%20warm%20golden%20hour%20light%2C%20smiling%20faces%2C%20rural%20Piura%20region%20background%20with%20dry%20landscape%2C%20emotional%20and%20hopeful%20atmosphere%2C%20documentary%20photography%20style%2C%20warm%20earthy%20tones&width=700&height=450&seq=donaciones-reemplazo-img&orientation=landscape"
+                src="/PachaEsperanza/images/fondooo.jpg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/80 via-emerald-900/20 to-transparent" />
               <div className="absolute bottom-5 left-5 right-5">
