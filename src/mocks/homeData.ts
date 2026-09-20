@@ -32,7 +32,6 @@ export const heroData = {
   ctaSecondaryHref: "#historias",
   stats: [
     { icon: "ri-heart-line", value: "3,200+", label: "Familias acompañadas" },
-    { icon: "ri-book-open-line", value: "1,800+", label: "Niños en programas educativos" },
     { icon: "ri-women-line", value: "940+", label: "Mujeres empoderadas" },
     { icon: "ri-map-pin-line", value: "18", label: "Provincias del Perú" },
   ],
@@ -323,35 +322,35 @@ export const apadrinamientoData = {
   carruselNinos: [
     {
       image:
-        "https://readdy.ai/api/search-image?query=Adorable%20Peruvian%20Andean%20child%20around%205%20years%20old%2C%20big%20innocent%20eyes%2C%20warm%20genuine%20smile%2C%20wearing%20colorful%20traditional%20poncho%2C%20rural%20Andean%20village%20background%2C%20soft%20golden%20light%2C%20emotional%20heartwarming%20portrait%2C%20documentary%20photography%20style%2C%20warm%20earthy%20tones&width=800&height=500&seq=carrusel-nino-01&orientation=landscape",
+        "/PachaEsperanza/images/marcos.jpg",
       caption: "Marco, 5 años · Catacaos, Piura",
       speech:
         "Mi sueño es sembrar papas como mi papá. Pero a veces no hay qué comer y él tiene que ir muy lejos a trabajar. Me gustaría tener una mochila con colores para ir a la escuela.",
     },
     {
       image:
-        "https://readdy.ai/api/search-image?query=Sweet%20Peruvian%20Andean%20girl%20age%206%2C%20two%20braided%20pigtails%20with%20colorful%20ribbons%2C%20shy%20but%20bright%20smile%2C%20wearing%20traditional%20woven%20dress%2C%20mountain%20village%20background%2C%20warm%20afternoon%20light%2C%20tender%20emotional%20portrait%2C%20documentary%20photography&width=800&height=500&seq=carrusel-nina-02&orientation=landscape",
+        "/PachaEsperanza/images/ana.jpg",
       caption: "Ana, 6 años · Chulucanas, Piura",
       speech:
         "Mi sueño es ser doctora y curar a mi abuelita que le duele mucho la espalda. Ahora ayudo a mi mamá en el campo y no puedo ir a la escuela todos los días. Quiero aprender a leer cuentos.",
     },
     {
       image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20Andean%20siblings%20two%20children%20hugging%20each%20other%20tenderly%2C%20brother%20and%20sister%2C%20wearing%20simple%20traditional%20clothes%2C%20rural%20Andean%20home%20background%2C%20warm%20natural%20light%2C%20loving%20bond%2C%20emotional%20documentary%20portrait%2C%20earthy%20tones&width=800&height=500&seq=carrusel-hermanos-03&orientation=landscape",
+        "/PachaEsperanza/images/rosita.jpg",
       caption: "Luis y Rosa, 7 y 4 años · Llata, Huánuco",
       speech:
         "Queremos crecer juntos y algún día ir a la universidad. Ahora dormimos en una sola cama y cuando llueve se moja el techo. Pero nos abrazamos fuerte y eso nos hace fuertes.",
     },
     {
       image:
-        "https://readdy.ai/api/search-image?query=Joyful%20Peruvian%20Andean%20boy%20age%209%2C%20running%20and%20laughing%20in%20an%20open%20field%2C%20colorful%20traditional%20clothing%20flowing%2C%20wild%20grass%20and%20mountains%20in%20background%2C%20warm%20sunset%20light%2C%20carefree%20happy%20moment%2C%20documentary%20photography&width=800&height=500&seq=carrusel-nino-04&orientation=landscape",
+        "/PachaEsperanza/images/pedro.png",
       caption: "Pedro, 9 años · Azángaro, Puno",
       speech:
         "Mi sueño es ser futbolista y llevar a mi pueblo a ganar un campeonato. Juego descalzo porque no tengo zapatos, pero soy el más rápido del barrio. Mi mamá dice que tengo corazón de campeón.",
     },
     {
       image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20Andean%20baby%20toddler%20around%203%20years%20old%2C%20curious%20bright%20eyes%2C%20sitting%20on%20woven%20blanket%2C%20colorful%20traditional%20hat%2C%20adobe%20wall%20background%2C%20warm%20gentle%20light%2C%20innocent%20adorable%20portrait%2C%20documentary%20photography&width=800&height=500&seq=carrusel-bebe-05&orientation=landscape",
+        "/PachaEsperanza/images/sofia.jpg",
       caption: "Sofía, 3 años · Panao, Huánuco",
       speech:
         "Quiero una muñeca que me abrace cuando mi mamá se va a trabajar muy temprano. Ella dice que me quiere mucho pero tiene que caminar muchas horas para traer agua. Yo la espero sonriendo.",
@@ -368,7 +367,7 @@ export const apadrinamientoData = {
       padrinosMeta: 1,
       apadrinado: false,
       image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20boy%20age%205%20smiling%20warmly%20in%20traditional%20Andean%20colorful%20poncho%2C%20rural%20mountain%20village%20background%2C%20soft%20golden%20light%2C%20hopeful%20expression%2C%20documentary%20portrait%20photography%2C%20warm%20earthy%20tones&width=400&height=480&seq=nino-marco-card-01&orientation=portrait",
+        "/PachaEsperanza/images/marcos.jpg",
     },
     {
       id: 2,
@@ -380,7 +379,7 @@ export const apadrinamientoData = {
       padrinosMeta: 1,
       apadrinado: false,
       image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20girl%20age%206%20with%20two%20braided%20pigtails%20and%20colorful%20ribbons%2C%20wearing%20traditional%20woven%20Andean%20dress%2C%20shy%20bright%20smile%2C%20rural%20village%20background%2C%20warm%20afternoon%20light%2C%20tender%20emotional%20portrait%2C%20documentary%20photography&width=400&height=480&seq=nina-ana-card-02&orientation=portrait",
+        "/PachaEsperanza/images/ana.jpg",
     },
     {
       id: 3,
@@ -392,7 +391,7 @@ export const apadrinamientoData = {
       padrinosMeta: 1,
       apadrinado: true,
       image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20Andean%20siblings%20two%20children%20hugging%20tenderly%2C%20brother%20age%207%20and%20sister%20age%204%2C%20wearing%20simple%20traditional%20clothes%2C%20rural%20Andean%20home%20background%2C%20warm%20natural%20light%2C%20loving%20bond%2C%20emotional%20documentary%20portrait%2C%20earthy%20tones&width=400&height=480&seq=ninos-luis-rosa-card-03&orientation=portrait",
+        "/PachaEsperanza/images/rosita.jpg",
     },
     {
       id: 4,
@@ -404,7 +403,7 @@ export const apadrinamientoData = {
       padrinosMeta: 1,
       apadrinado: false,
       image:
-        "https://readdy.ai/api/search-image?query=Joyful%20Peruvian%20Andean%20boy%20age%209%2C%20bright%20smile%2C%20wearing%20simple%20traditional%20clothing%2C%20rural%20field%20and%20mountains%20background%2C%20warm%20sunset%20light%2C%20carefree%20happy%20expression%2C%20documentary%20portrait%20photography%2C%20earthy%20warm%20tones&width=400&height=480&seq=nino-pedro-card-04&orientation=portrait",
+        "/PachaEsperanza/images/pedro.png",
     },
     {
       id: 5,
@@ -416,7 +415,7 @@ export const apadrinamientoData = {
       padrinosMeta: 1,
       apadrinado: false,
       image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20Andean%20baby%20toddler%20around%203%20years%20old%2C%20curious%20bright%20eyes%2C%20wearing%20colorful%20traditional%20hat%2C%20adobe%20wall%20background%2C%20warm%20gentle%20light%2C%20innocent%20adorable%20portrait%2C%20documentary%20photography%2C%20warm%20earthy%20tones&width=400&height=480&seq=nina-sofia-card-05&orientation=portrait",
+        "/PachaEsperanza/images/sofia.jpg",
     },
   ],
 };
