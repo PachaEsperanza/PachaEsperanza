@@ -92,8 +92,7 @@ export const areasTrabajo = {
       countLabel: "Familias con nutrición segura",
       description:
         "Impulsamos huertos familiares y crianza de animales menores para que ninguna mesa campesina quede vacía, sembrando autosuficiencia donde antes había escasez.",
-      image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20family%20tending%20their%20vegetable%20garden%20in%20the%20Andes%2C%20fresh%20produce%2C%20children%20helping%2C%20rural%20community%2C%20natural%20and%20vibrant%20colors&width=900&height=600&seq=area-alimento-01&orientation=landscape",
+      image: "/PachaEsperanza/images/alimentaria.jpg",
     },
     {
       id: 2,
@@ -104,8 +103,7 @@ export const areasTrabajo = {
       countLabel: "Comunidades preservadas",
       description:
         "Rescatamos danzas, lenguas originarias y saberes ancestrales para que ningún niño olvide de dónde viene, porque la cultura es la raíz que sostiene toda transformación.",
-      image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20indigenous%20cultural%20celebration%2C%20traditional%20dance%20and%20music%2C%20colorful%20costumes%2C%20community%20gathering%20in%20Andean%20village%2C%20joyful%20atmosphere&width=900&height=600&seq=area-cultura-01&orientation=landscape",
+      image: "/PachaEsperanza/images/identidadcultural.jpg",
     },
     {
       id: 5,
@@ -116,8 +114,7 @@ export const areasTrabajo = {
       countLabel: "Mujeres empoderadas",
       description:
         "Formamos a mujeres campesinas en liderazgo y emprendimiento para que dejen de depender y empiecen a decidir, construyendo su propio camino con dignidad y autonomía.",
-      image:
-        "https://readdy.ai/api/search-image?query=Group%20of%20Peruvian%20women%20in%20traditional%20clothing%20working%20together%20in%20a%20community%20workshop%2C%20empowered%20and%20smiling%2C%20Andean%20setting%2C%20warm%20light&width=900&height=600&seq=area-mujer-01&orientation=landscape",
+      image: "/PachaEsperanza/images/empoderamiento.jpg",
     },
     {
       id: 6,
@@ -128,8 +125,7 @@ export const areasTrabajo = {
       countLabel: "Familias acompañadas",
       description:
         "Acompañamos a las comunidades a organizarse y gestionar sus propios proyectos, porque el cambio verdadero se construye con las familias, no para ellas.",
-      image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20rural%20community%20meeting%20in%20town%20square%2C%20adults%20and%20children%20together%2C%20Andean%20village%20setting%2C%20warm%20afternoon%20light%2C%20hopeful%20atmosphere&width=900&height=600&seq=area-comunidad-01&orientation=landscape",
+      image: "/PachaEsperanza/images/comunitorario.jpg",
     },
   ],
 };
@@ -147,8 +143,7 @@ export const testimoniosData = {
       region: "Puno",
       categoria: "Empoderamiento Femenino",
       categoriaColor: "violet",
-      image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20woman%20in%20her%2030s%2C%20traditional%20Andean%20clothing%2C%20warm%20smile%2C%20dignified%20portrait%2C%20natural%20light%2C%20rural%20background%2C%20authentic%20and%20emotional&width=500&height=700&seq=testimonio-rosa-03&orientation=portrait",
+      image: "/PachaEsperanza/images/rosa.jpg",
       quote:
         "Cuando mi esposo se fue, quedé sola con tres hijos y sin saber cómo pagar el colegio. Pacha Esperanza me enseñó a tejer y a vender mis productos. Hoy tengo mi propio negocio y mis hijos estudian. Nunca pensé que podría lograrlo.",
       role: "Emprendedora textil con 3 hijos en la escuela",
@@ -253,8 +248,7 @@ export const proyectosData = {
       estadoColor: "emerald",
       beneficiarios: 80,
       region: "Chulucanas, Piura",
-      image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20women%20in%20leadership%20workshop%20in%20rural%20northern%20Peru%20Piura%2C%20arid%20landscape%20background%2C%20community%20center%20with%20rustic%20walls%2C%20learning%20and%20empowerment%2C%20engaged%20expressions%2C%20warm%20dusty%20light&width=400&height=220&seq=proyecto-mujer-piura-01&orientation=landscape",
+      image: "/PachaEsperanza/images/mujeres.jpg",
     },
     {
       id: 4,
@@ -270,8 +264,7 @@ export const proyectosData = {
       estadoColor: "amber",
       beneficiarios: 200,
       region: "Azángaro, Puno",
-      image:
-        "https://readdy.ai/api/search-image?query=Family%20vegetable%20garden%20in%20arid%20northern%20Peru%20Piura%20region%2C%20drip%20irrigation%20system%20among%20dry%20soil%2C%20family%20working%20together%2C%20algarrobo%20trees%20in%20background%2C%20fresh%20produce%2C%20warm%20dusty%20light%2C%20rural%20community&width=400&height=220&seq=proyecto-huerto-piura-01&orientation=landscape",
+      image: "/PachaEsperanza/images/huertos.jpg",
     },
     {
       id: 5,
@@ -287,8 +280,7 @@ export const proyectosData = {
       estadoColor: "emerald",
       beneficiarios: 420,
       region: "Puno",
-      image:
-        "https://readdy.ai/api/search-image?query=Peruvian%20children%20learning%20traditional%20northern%20Peruvian%20dance%20and%20music%20in%20Piura%20region%2C%20cultural%20school%2C%20colorful%20regional%20costumes%2C%20dry%20landscape%20background%2C%20joyful%20community%20celebration%2C%20warm%20dusty%20light&width=400&height=220&seq=proyecto-cultura-piura-01&orientation=landscape",
+      image: "/PachaEsperanza/images/puno.jpg",
     },
   ],
 };

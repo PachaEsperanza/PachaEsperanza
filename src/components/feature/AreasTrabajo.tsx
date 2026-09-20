@@ -27,13 +27,17 @@ export default function AreasTrabajo() {
 
   return (
     <section id="impacto" className="relative py-10 md:py-14 overflow-hidden bg-stone-900">
-      <div className="absolute inset-0 transition-all duration-700">
-        <img
-          alt="Educación Infantil"
-          className="w-full h-full object-cover object-top"
-          src="https://readdy.ai/api/search-image?query=Peruvian%20children%20in%20a%20rural%20school%20classroom%2C%20smiling%20and%20learning%2C%20colorful%20notebooks%2C%20Andean%20village%20setting%2C%20warm%20natural%20light%2C%20hopeful%20atmosphere&width=900&height=600&seq=area-educacion-01&orientation=landscape"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-stone-900/60 via-stone-900/40 to-stone-900/80" />
+      <div className="absolute inset-0">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/PachaEsperanza/videos/fondo1.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-b from-stone-900/15 via-stone-900/10 to-stone-900/25" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-6">
